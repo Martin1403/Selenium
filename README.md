@@ -3,8 +3,11 @@ Gmail log in
 **Note:**
 Vytvoriť automatizovaný systém za pomoci programovacieho jazyka Python, ktorý sa prihlasuje do G-mailovej adresy. Odporúčame použiť knižnicu Selenium.
 
+### Dependencies:
+- Windows10
+- python3.9
+
 ### Venv:
-###### python3.9
 ```
 cd gmail
 python -m venv venv
