@@ -1,6 +1,4 @@
 import argparse
-from ast import main
-import sys
 from time import sleep
 
 import undetected_chromedriver as uc
@@ -16,7 +14,6 @@ parser.add_argument("--password", type=str, default="None", help="Enter password
 
 if __name__ == "__main__":
     args = parser.parse_args()
-    
     # Open browser url
     driver = uc.Chrome(use_subprocess=True)
     wait = WebDriverWait(driver, 20)
@@ -24,7 +21,7 @@ if __name__ == "__main__":
     # Enter email + enter
     elem = wait.until(EC.visibility_of_element_located((By.ID, "identifierId")))
     elem.send_keys(args.gmail + "\n")
-    # Enter password + ener
+    # Enter password + enter
     elem = wait.until(EC.visibility_of_element_located((By.NAME, "password")))
     elem.send_keys(args.password + "\n")
     sleep(20)
