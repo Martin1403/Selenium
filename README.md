@@ -20,5 +20,3 @@ pip install -r requirements.txt
 
 ###### [Links:]()
 - [Youtube](https://www.youtube.com/watch?v=GcTGurNyf6Y&t=85s) Selenium bypass google login block (This browser or app may not be secure) 
-- [Selenium](https://pypi.org/project/selenium/)
-- [undetected-chromedriver](https://pypi.org/project/undetected-chromedriver/)
