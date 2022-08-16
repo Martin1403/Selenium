@@ -25,4 +25,3 @@ if __name__ == "__main__":
     elem = wait.until(EC.visibility_of_element_located((By.NAME, "password")))
     elem.send_keys(args.password + "\n")
     sleep(20)
-
